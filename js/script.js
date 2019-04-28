@@ -8,6 +8,7 @@ let ul = document.querySelector(".menu"),
 
 li.classList.add("menu-item");
 ul.appendChild(li);
+li.textContent = "Пятый пункт";
 body.style.background = "url(img/apple_true.jpg) center no-repeat";
 title.innerHTML = "Мы продаем только подлинную технику Apple";
 column[1].removeChild(adv);
